@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:5001/api";
+const API_URL = (import.meta.env.VITE_API_URL || "http://127.0.0.1:5001/api").replace(/\/$/, "");
 
 // 1. Define your suggestions
 const SUGGESTIONS = [

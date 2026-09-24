@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@getbrevo/brevo": "^4.0.1",
+    "@google/generative-ai": "^0.24.1",
     "axios": "^1.13.5",
     "axois": "^0.0.1-security",
     "bcryptjs": "^2.4.3",
@@ -33,7 +34,6 @@
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.2",
-    "@google/generative-ai": "^0.24.1",
     "babel-jest": "^30.3.0",
     "jest": "^30.3.0",
     "mongodb-memory-server": "^11.0.1",
